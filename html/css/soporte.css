@@ -1,0 +1,8 @@
+body#fondo{background-image: url(../css/imaguenesparacss/descarga.jpg);
+background-repeat: no-repeat; background-size: cover;
+}
+
+p.color{color: rgb(24, 22, 22);}
+
+
+nav.otrocolor{background-color: rgb(88, 152, 182);}

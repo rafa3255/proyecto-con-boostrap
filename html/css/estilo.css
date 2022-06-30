@@ -1,0 +1,49 @@
+*{margin: 0%; padding: 0%;}
+
+h1 { color: rgb(29, 28, 26);  display: inline-block; margin-left:45% }
+
+
+body{ background-color: rgb(110, 88, 59);}
+
+
+
+header img { height: 10ch; width: 10ch; }
+
+
+header{ background-color: rgb(255, 255, 255); display: flex; justify-content: center; height: 80px;
+position: sticky; top: 0%;
+}
+ul{ display: flex;}
+
+ul li{ list-style: none;  margin: auto; }
+
+.import{  !important}
+a{ text-decoration: none; color: black; margin: 30px;  }
+
+main{ display:flex ; background-color: rgb(240, 240, 166); }
+
+.parte1{text-align: center;}
+
+   /*RESPONSIVE TABLET*/
+   @media screen and (max-width:1023px) {
+    .transform{
+        width: 150px;
+        height: 150px;
+    }
+ }
+ /*RESPONSIVE MOBILE*/
+ @media screen and (max-width: 480px) {
+    .transform{
+        width: 100px;
+        height: 100px;
+    }
+ }
+
+
+
+
+
+
+
+
+
